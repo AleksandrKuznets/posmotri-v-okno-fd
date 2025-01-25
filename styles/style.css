@@ -16,6 +16,9 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1,
@@ -51,13 +54,6 @@ ol {
 }
 
 /* мой код */
-
-.page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .content {
   display: grid;
   grid-template-columns: 711px 1fr;
