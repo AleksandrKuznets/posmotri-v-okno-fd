@@ -97,7 +97,7 @@ ol {
 .content__list-container {
   position: relative;
   overflow-y: auto;
-  height: 298px;
+  max-height: 298px;
 }
 
 .content__list {
